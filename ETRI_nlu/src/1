@@ -1,0 +1,7 @@
+const axios = require("axios").default
+
+axios.get("https://google.com")
+    .then((result) => {
+        console.log(result);
+    })
+
